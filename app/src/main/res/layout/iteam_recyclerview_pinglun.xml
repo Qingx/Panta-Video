@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/pingLunTouXiang"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tou5"
+                app:riv_border_color="@color/colorPrimary"
+                app:riv_border_width="1dp"
+                app:riv_oval="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7.5"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <TextView
+                android:id="@+id/pingLunID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:text="唐纳德·特朗普" />
+            <TextView
+                android:id="@+id/pingLunTime"
+                android:layout_toRightOf="@id/pingLunID"
+                android:text="3-21"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/pingLunText"
+                android:textColor="@android:color/black"
+                android:text="百姓安居，成天勾心斗角百姓安居乐业，齐夸党的领导，国外比较乱遭，成天勾心斗角百姓安居乐业，齐夸党的领导，国外比较乱遭，成天勾心斗角百姓安居乐业，齐夸党的领导，国外比较乱遭，成天勾心斗角百姓安居乐业，齐夸党的领导，国外比较乱遭，成天勾心斗角，纵观世界风云，风景这边更好！"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/zan"/>
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/pingLunZan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="1280"/>
+            <ImageView
+                android:layout_marginTop="6dp"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/cai"/>
+            <TextView
+                android:id="@+id/pingLunCai"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="330"/>
+            <ImageView
+                android:layout_gravity="center"
+
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/huifu"/>
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/pingLunHuiFu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:text="530"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

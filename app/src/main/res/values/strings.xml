@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PanTaTV</string>
+    <string-array name="TVNames">
+        <item>CCTV1 综合</item>
+        <item>CCTV2 财经</item>
+        <item>CCTV3 综艺</item>
+        <item>CCTV4 中文国际</item>
+        <item>CCTV5 体育</item>
+        <item>CCTV6 电影</item>
+        <item>GTV 游戏竞技</item>
+        <item>BES 中国功夫</item>
+        <item>测试频道</item>
+        <item>CCTV12 法治</item>
+    </string-array>
+    <string-array name="TVDetail">
+        <item>CCTV1 中央电视台综合频道是以新闻为主的综合类电视频道。</item>
+        <item>CCTV2 中央电视台财经频道是以财经资讯节目为核心、生活服务节目为辅助的电视频道。</item>
+        <item>CCTV3 中央电视台综艺频道是以播出音乐及歌舞节目为主的专业电视频道。</item>
+        <item>CCTV4 中央电视台中文国际频道是以海外华人、华侨和港、澳、台为主要服务对象的专业频道。</item>
+        <item>CCTV5 中央电视台体育频道是以播出体育赛事和体育报道为主的专业电视频道。</item>
+        <item>CCTV6 中央电视台电影频道是以宣传电影、培养电影观众、传播影视文化为宗旨的专业频道</item>
+        <item>GTV 游戏竞技频道是一个游戏产业的大众媒体，针对所有游戏爱好者，包括网络游戏，电视游戏，PC单机游戏，电子竞技等内容。</item>
+        <item>BES 中国功夫频道旨在弘扬中华民族优秀的传统文化，挖掘中国武术的丰富内涵，展示武术文化的独特魅力和现代美感。</item>
+        <item>测试</item>
+        <item>小甜点专属</item>
+    </string-array>
+    <string-array name="TVUrl">
+        <item>http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225852/index.m3u8</item> <!--ok-->
+        <item>http://223.110.245.170/ott.js.chinamobile.com/PLTV/3/224/3221227207/index.m3u8</item>
+        <item>http://223.110.245.163/ott.js.chinamobile.com/PLTV/3/224/3221227415/index.m3u8</item>
+        <item>http://223.110.245.170/ott.js.chinamobile.com/PLTV/3/224/3221225534/index.m3u8</item>
+        <item>http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221226362/index.m3u8</item>
+        <item>http://223.110.245.159/ott.js.chinamobile.com/PLTV/3/224/3221225548/index.m3u8</item>
+        <item>http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221226942/index.m3u8</item>
+        <item>http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221226935/index.m3u8</item>
+        <item>http://223.110.245.170/ott.js.chinamobile.com/PLTV/3/224/3221225556/index.m3u8</item>
+    </string-array>
+
+</resources>
